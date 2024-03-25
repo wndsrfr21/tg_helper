@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Clone an example open GitHub repository
 # Replace the URL with the specific repository you want to clone
-RUN git clone https://github.com/example/example.git
+RUN git clone https://github.com/wndsrfr21/tg_helper.git
 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
